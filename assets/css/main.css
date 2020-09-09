@@ -1,0 +1,10 @@
+*,body,ul{margin:0;padding:0;font-family:Franklin Gothic Medium;}
+body{background:whitesmoke;}
+#complete figure{display:block;float:left;height:308px;width:650px;position:relative;}
+.btn{z-index:10;top:calc(50% - 22px);background:rgba(0,0,0,0.7);position:absolute;padding:2px 10px;cursor:pointer;color:white;font-size:40px;}
+.btn:hover{background:rgba(0,158,224,0.7);}
+#next{right:0;}
+#previous{left:0;}
+#viewer{height:308px;width:650px;overflow:hidden;margin:0 auto;position:relative;border-radius:10px;}
+#complete{height:100%;width:calc(650px * 5);transform:translateX(calc(650px * -2));transition:all 0.5s ease-in-out;}
+figcaption{position:absolute;bottom:0;width:calc(100% - 20px);padding:5px 10px;background:rgba(0,0,0,0.7);}
